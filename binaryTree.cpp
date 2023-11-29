@@ -75,29 +75,6 @@ class BinaryTree {
         return searchInOrder(curr->right, data);
     }
 
-    // bool deleteNode(int data) {
-    //     Node* prev = nullptr;
-    //     Node* curr = head;
-    //     while (curr != nullptr)
-    //     {
-    //         if (curr->data == data) {
-    //             // delete
-    //             if (prev == nullptr) {
-    //                 head = curr->next;
-    //             }
-    //             else {
-    //                 prev->next = curr->next;
-    //             }
-
-    //             delete curr;
-    //             return true;
-    //         }
-    //         prev = curr;
-    //         curr = curr->next;
-    //     }
-    //     return false;
-    // }
-
 };
 
 int main(int argc, char* argv[]) {
